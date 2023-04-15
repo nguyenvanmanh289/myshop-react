@@ -1,0 +1,1300 @@
+$colorgram : rgb(255, 64, 64);
+$hover-colorgram : rgb(209, 52, 52);
+@media screen and (min-width:1024px) {
+    #main-section{
+    #banner{
+        position: relative;
+        width: 100%;
+        height: 500px;
+        background-color: rgb(46, 46, 46);
+        display: flex;
+        align-items: center;
+        
+        div{
+            position: absolute;
+            z-index: 1;
+            width: 30%;
+            aspect-ratio: 1/0.7;
+            right: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            p:first-child{
+                text-align: center;
+            }
+            h1{
+                text-align: center;
+            }
+            p{
+                width: 70%;
+                text-align: center;
+            }
+            button{
+                background-color: $colorgram;
+                height: 40px;
+                aspect-ratio: 8/2;
+            }
+            button:hover{
+                background-color: $hover-colorgram;
+                height: 40px;
+                aspect-ratio: 8/2;
+                transition: all 0.3s linear;
+            }
+        }
+        #big-banner{
+            width: 100%;
+            height: 100%;
+            transform: scaleX(-1);
+        }
+    }
+    .container{
+        margin-top: 60px;
+      #content{
+        #banner-sale{
+            
+            height: 500px;
+            display: flex;
+            justify-content: space-between;
+            
+
+            #square-banner-sale {
+                position: relative;
+                width: 40%; 
+                img{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: -1;
+                }
+                p{
+                    margin-bottom: 5px;
+                    margin-left:2.3em;
+                    margin-top: 2em;
+                }
+                h1{
+                    font-size: 1.2em;
+                    margin-left:2em;
+                }
+                a{
+                    font-size:0.8em;
+                    margin-left:3em;
+                    color: rgb(216, 216, 216);
+                }             
+            }
+            #square-banner-sale+div{           
+                width:58%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-content:space-between;
+                #smail-banner-sale1,
+                #smail-banner-sale2,
+                #smail-banner-sale3{
+                    position: relative;
+                }
+                img{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: -1;
+                }
+                p{
+                    margin-bottom: 5px;
+                    margin-left:2.3em;
+                    margin-top: 2em;
+                    color: rgb(255, 255, 255);
+                }
+                h1{
+                    font-size: 1.2em;
+                    margin-left:2em;
+                    color: rgb(255, 255, 255);
+                }
+                a{
+                    font-size:0.8em;
+                    margin-left:3em;
+                    color: rgb(199, 199, 199);
+                }
+                #smail-banner-sale1{
+                    width: 48%;
+                    height: 47% ;                 
+                }
+                #smail-banner-sale2{
+                    width: 48%;
+                    height: 47% ;
+                }
+                #smail-banner-sale3{
+                    width: 100%;
+                    height: 47% ;
+                }
+            }           
+        }
+
+        #new-product{
+            margin-top: 60px;
+            #title-np{
+                width: 100%;
+                text-align: center;
+            }
+            #hr-style{
+                width: 100%;  
+                text-align: center;  
+            }
+            #mini-nav{
+                
+                width: 100%;
+                ul{
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    padding: 0;
+                    li{
+                        margin-left: 1em;
+                    } 
+                } 
+            }
+                    
+            #list-products{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .div-lp{
+                    width: 18.4%;
+                    aspect-ratio: 0.6;
+                  
+                }
+            }          
+            #deals{
+                width: 100%;
+                height: 450px;
+                margin-top: 80px;
+                background-color: gray;
+                position: relative;
+                img{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top:0;
+                }
+                #p1{
+                    position: absolute;
+                    top:50px;
+                    left:50px;
+                    color: $colorgram;
+                 }
+                h1{
+                    position: absolute;
+                    top:100px;
+                    left:50px;
+                    color: rgb(255, 255, 255);
+                } 
+                #p2{
+                    position: absolute;
+                    top:200px;
+                    left:50px;
+                    color: rgb(255, 255, 255);
+                }                
+                #clock{
+                    display: flex;
+                    position: absolute;
+                    position: absolute;
+                    top:270px;
+                    left:30px;
+                    .clock{
+                        width: 70px;
+                        height: 60px;
+                        background-color: white;
+                        color: black;
+                        margin-left: 1em;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                        font-size: 1.4em;
+                        border-radius: 5px;
+                        font-weight: 500;
+                        span{
+                            width: 100%;
+                            color:gray;
+                            text-align: center;
+                            font-size: 0.7em;
+                            margin-top: -1em;
+                        }
+                    }  
+                    .space{
+                        margin-left: 20px;
+                        margin-top: 2px;
+                        font-size: 2em;
+                        color: white;
+                    }
+                   
+                }    
+                button{
+                    bottom: 50px;
+                    left:50px;
+                    position: absolute;
+                    background-color: $colorgram;
+                    height: 40px;
+                    aspect-ratio: 8/2;
+                }
+                button:hover{
+                    background-color: $hover-colorgram;
+                    height: 40px;
+                    aspect-ratio: 8/2;
+                    transition: all 0.3s linear;
+                }   
+                #play{
+                    width: 70px;
+                    height: 70px;
+                    position: absolute;
+                    top:40%;
+                    right: 100px;
+                }                                   
+            }    
+        }
+        #out-best-seller{
+            width: 100%;
+            margin-top: 80px;
+            #obs-title{
+                text-align: center;
+            }
+            #obs-hr{
+                text-align: center;
+            }
+            #obs-top-sale{
+                margin-top: 40px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                .div-ts{
+                    width: 18%;
+                    aspect-ratio: 0.6;
+                }
+            }                         
+            #obs-pr-sale{
+                margin-top: 60px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                div{
+                    width: 49%;
+                    aspect-ratio: 5/2;
+                    position: relative;
+                    img{    
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                    }
+                    p{
+                        position: absolute;
+                         z-index: 1;  
+                         top:20px;
+                         left:50px; 
+                         color:white;                
+                    }
+                    h1{
+                        position: absolute;
+                         z-index: 1;  
+                         top:50px;
+                         left:50px;  
+                         font-size: 1.5em;   
+                         color:white;            
+                    }
+                    a{
+                        position: absolute;
+                         z-index: 1;  
+                         top:90px;
+                         left:50px;                  
+                    }
+                }
+            }
+        }
+
+        #out-clients-say{
+            width: 100%;
+            margin-top: 80px;
+            #ocs-title{
+                text-align: center;
+            }
+            #ocs-hr{
+                text-align: center;
+            }
+            #ocs-mini-cv{
+                margin-top: 40px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                .cv-item{
+                    width: 32%;
+                    aspect-ratio: 3/2;
+                    border-radius: 5px;
+                    box-shadow: 0 0 20px rgb(165, 165, 165);
+                    display: flex;
+                    justify-content: center;
+                }
+            }    
+            #pagination{
+                width: 100%;
+                height: 80px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0;
+                padding: 0;
+                li{
+                    background-color: $colorgram;
+                    border-radius: 50%;
+                    margin-left: 8px;
+                    color:$colorgram;
+                    height: 10px;
+                    width: 10px;
+                    margin-top: -10px;
+                }
+            }      
+            #ocs-pr{
+                width: 100%;
+                height: 400px;
+                background-color: gray;
+                position: relative;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                }
+                h1{
+                    position: absolute;
+                    top:80px;
+                    left:50px;
+                }
+                p{
+                    position: absolute;
+                    top:150px;
+                    left:50px;
+                }
+                #ocs-button{
+                    position: absolute;
+                    width: 150px;
+                    height: 50px;
+                    background-color: $colorgram;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    top:260px;
+                    left:50px;
+                }
+                #ocs-button:hover{
+                    background-color: $hover-colorgram;
+                    transition: all .3s linear;
+                }
+            }
+        }
+        #from-the-blog{
+            width: 100%;
+            margin-top: 80px;
+            #ftb-title{
+                text-align: center;                        
+            }
+            #ftb-hr{
+                text-align: center;                                                                          
+            }
+            #ftb-pr{
+                margin-top: 40px;
+                width: 100%;
+                
+                #ftbscroll{
+                    display: flex;
+                    justify-content: space-between;
+                .ftb-pr-item{
+                    width: 24%;
+                    aspect-ratio: 0.6;         
+                }
+                }
+                h1{
+                        width: 100%;
+                    }
+            }
+        }               
+    }}
+}
+}
+//tablet===============================
+@media screen and (min-width:765px) and (max-width:1024px){
+    #main-section{
+        #banner{
+            position: relative;
+            width: 100%;
+            height: 500px;
+            background-color: rgb(46, 46, 46);
+            display: flex;
+            align-items: center;           
+            div{
+                position: absolute;
+                z-index: 1;
+                width: 50%;
+                aspect-ratio: 1/0.7;
+                right: 190px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                p:first-child{
+                    text-align: center;
+                }
+                h1{
+                    text-align: center;
+                }
+                p{
+                    width: 70%;
+                    text-align: center;
+                }
+                button{
+                    background-color: $colorgram;
+                    height: 40px;
+                    aspect-ratio: 8/2;
+                }
+                button:hover{
+                    background-color: $hover-colorgram;
+                    height: 40px;
+                    aspect-ratio: 8/2;
+                    transition: all 0.3s linear;
+                }
+            }
+            //flip 180deg img bigbanner
+            #big-banner{
+                width: 100%;
+                height: 100%;
+                transform: scaleX(-1);
+            }
+        }
+        .container{
+            margin-top: 60px;
+          #content{
+            #banner-sale{              
+                
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                #square-banner-sale {
+                    position: relative;
+                    width: 100%; 
+                    aspect-ratio: 1;
+                    order: 2;
+                    margin-top: 30px;
+                    img{
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        z-index: -1;
+                    }
+                    p{
+                        margin-bottom: 5px;
+                        margin-left:2.3em;
+                        margin-top: 2em;
+                    }
+                    h1{
+                        font-size: 1.2em;
+                        margin-left:2em;
+                    }
+                    a{
+                        font-size:0.8em;
+                        margin-left:3em;
+                        color: rgb(216, 216, 216);
+                    }             
+                }
+                #square-banner-sale+div{           
+                    width:100%;
+                    aspect-ratio: 4/3;
+                    order: 1;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-content:space-between;
+                    #smail-banner-sale1,
+                    #smail-banner-sale2,
+                    #smail-banner-sale3{
+                        position: relative;
+                    }
+                    img{
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        z-index: -1;
+                    }
+                    p{
+                        margin-bottom: 5px;
+                        margin-left:2.3em;
+                        margin-top: 2em;
+                        color: rgb(255, 255, 255);
+                    }
+                    h1{
+                        font-size: 1.2em;
+                        margin-left:2em;
+                        color: rgb(255, 255, 255);
+                    }
+                    a{
+                        font-size:0.8em;
+                        margin-left:3em;
+                        color: rgb(199, 199, 199);
+                    }
+                    #smail-banner-sale1{
+                        width: 48%;
+                        height: 47% ;                 
+                    }
+                    #smail-banner-sale2{
+                        width: 48%;
+                        height: 47% ;
+                    }
+                    #smail-banner-sale3{
+                        width: 100%;
+                        height: 47% ;
+                    }
+                }           
+            }
+    
+            #new-product{
+                margin-top: 60px;
+                #title-np{
+                    width: 100%;
+                    text-align: center;
+                    margin: 0;
+                }
+                #hr-style{
+                    width: 100%;  
+                    text-align: center;  
+                }
+                #mini-nav{      
+                    margin-top: 5px;  
+                    width: 100%;
+                    ul{
+                        display: flex;
+                        justify-content: center;
+                        width: 100%;
+                        padding: 0;
+                        li{
+                            margin-left: 1em;
+                        } 
+                    } 
+                }                      
+                #list-products{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    .div-lp{
+                        width: 31%;
+                        aspect-ratio: 0.6;                    
+                    }
+                }          
+                #deals{
+                    width: 100%;
+                    height: 350px;
+                    margin-top: 80px;
+                    background-color: gray;
+                    position: relative;
+                    img:first-child{
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        top:0;
+                    }
+                    #p1{
+                        position: absolute;
+                        top:60px;
+                        left:50px;
+                        color: $colorgram;
+                     }
+                    h1{
+                        position: absolute;
+                        top:100px;
+                        left:50px;
+                        color: rgb(255, 255, 255);
+                    } 
+                    #p2{                       
+                        display: none;
+                    }                
+                    #clock{
+                        display: flex;
+                        position: absolute;
+                        top:155px;
+                        left:30px;   
+                        color: white;   
+                        .clock{
+                            width: 70px;
+                            height: 60px;
+                            background-color: white;
+                            color: black;
+                            margin-left: 1em;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-wrap: wrap;
+                            font-size: 1.4em;
+                            border-radius: 5px;
+                            font-weight: 500;
+                            span{
+                                width: 100%;
+                                color:gray;
+                                text-align: center;
+                                font-size: 0.7em;
+                                margin-top: -1em;
+                            }
+                        }  
+                        .space{
+                            margin-left: 20px;
+                            margin-top: 2px;
+                            font-size: 2em;
+                        }               
+                    }    
+                    button{
+                        bottom: 70px;
+                        left:50px;
+                        position: absolute;
+                        background-color: $colorgram;
+                        height: 40px;
+                        aspect-ratio: 8/2;
+                    }
+                    button:hover{
+                        background-color: $hover-colorgram;
+                        height: 40px;
+                        aspect-ratio: 8/2;
+                        transition: all 0.3s linear;
+                    } 
+                    #container-play{
+                        #play{
+                        width: 70px;
+                        height: 70px;
+                        position: absolute;
+                        bottom: 40%;
+                        z-index: 1;
+                        right: 50px;
+                        top:40%;
+                    }   
+                    }
+                } 
+            }
+            #out-best-seller{
+                width: 100%;
+                margin-top: 80px;
+                #obs-title{
+                    text-align: center;
+                }
+                #obs-hr{
+                    text-align: center;
+                }
+                #obs-top-sale{
+                    margin-top: 40px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    overflow-x: scroll;
+                    &::-webkit-scrollbar{
+                        display: none;
+                    }
+                    .div-ts{
+                        width: 31%;
+                        aspect-ratio: 0.6;
+                        margin-left: 2.33%;
+                    }
+                }
+                                       
+                #obs-pr-sale{
+                    margin-top: 60px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    div{
+                        width: 49%;
+                        aspect-ratio: 5/2;
+                        position: relative;
+                        img{                           
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                        }
+                        p{                           
+                             display: none;            
+                        }
+                        h1{
+                            position: absolute;
+                             z-index: 1;  
+                             top:26px;
+                             left:25px;  
+                             font-size: 1.1em;   
+                             color:white;            
+                        }
+                        a{
+                            position: absolute;
+                             z-index: 1;  
+                             top:45%;
+                             left:25px;    
+                             color: white;              
+                        }
+                    }
+                }
+            }
+    
+            #out-clients-say{
+                width: 100%;
+                margin-top: 80px;
+                #ocs-title{
+                    text-align: center;
+                }
+                #ocs-hr{
+                    text-align: center;
+                }
+                #ocs-mini-cv {
+                    margin-top: 40px;
+                    width: 100%;
+                    display: flex;
+                    overflow-x: scroll;
+                    &::-webkit-scrollbar {
+                      display: none;
+                    }
+                    .cv-item {
+                      flex: 0 0 48%; 
+                      margin-right: 2%;
+                      aspect-ratio: 1;
+                      border-radius: 5px;
+                      box-shadow: 0 0 2px rgb(165, 165, 165);
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    }
+                  }    
+                #pagination{
+                    width: 100%;
+                    height: 80px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0;
+                    padding: 0;
+                    li{
+                        background-color: $colorgram;
+                        border-radius: 50%;
+                        margin-left: 8px;
+                        color:$colorgram;
+                        height: 10px;
+                        width: 10px;
+                        margin-top: -10px;   
+                    }
+                }      
+                #ocs-pr{
+                    width: 100%;
+                    height: 300px;
+                    background-color: gray;
+                    position: relative;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                    }
+                    h1{
+                        position: absolute;
+                        top:60px;
+                        left:50px;
+                        font-size: 1.5em;
+                    }
+                    p{
+                        position: absolute;
+                        top:105px;
+                        left:50px;
+                        font-size: 0.9em;
+                    }
+                    #ocs-button{
+                        position: absolute;
+                        width: 150px;
+                        height: 40px;
+                        background-color: $colorgram;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;   
+                        top:190px;
+                        left:50px;
+                    }
+                    #ocs-button:hover{
+                        background-color: $hover-colorgram;
+                        transition: all .3s linear;
+                    }
+                }
+            }
+            #from-the-blog{
+                width: 100%;
+                margin-top: 80px;
+                #ftb-title{
+                    text-align: center;                        
+                }
+                #ftb-hr{
+                    text-align: center;                                                                          
+                }
+    
+                #ftb-pr{
+                    margin-top: 40px;
+                    width: 100%;
+                    aspect-ratio: 2/2.3;
+                    overflow-x: scroll;
+                    overflow-y: hidden;
+                    &::-webkit-scrollbar{
+                        display: none;
+                    }
+                    #ftbscroll{
+                        display: flex;
+                        width: 380%;
+                        margin-left: 7%;
+                        justify-content: space-between;
+                        #ftb-pr-item{
+                          width: 25%;  
+                          aspect-ratio: 1/1.2;        
+                        }
+                    }
+                   
+                }
+            }              
+        }}
+    }
+}
+
+@media screen and (max-width:765px){
+    #main-section{
+        #banner{
+            position: relative;
+            width: 100%;
+            aspect-ratio: 1;
+            background-color: rgb(46, 46, 46);
+            display: flex;
+            align-items: center;  
+            justify-content: center;         
+            div{
+                position: absolute;
+                z-index: 1;
+                width: 70%;
+                aspect-ratio: 1/0.7;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                p:first-child{
+                    text-align: center;
+                }
+                h1{
+                    text-align: center;
+                }
+                p{
+                    width: 70%;
+                    text-align: center;
+                    margin: 0;
+                }
+                button{
+                    background-color: $colorgram;
+                    height: 40px;
+                    aspect-ratio: 8/2;
+                }
+                button:hover{
+                    background-color: $hover-colorgram;
+                    height: 40px;
+                    aspect-ratio: 8/2;
+                    transition: all 0.3s linear;
+                }
+            }
+            //flip 180deg img bigbanner
+            #big-banner{
+                width: 100%;
+                height: 100%;
+                transform: scaleX(-1);
+            }
+        }
+        .container{
+            margin-top: 60px;
+          #content{
+            #banner-sale{                         
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                #square-banner-sale {
+                    position: relative;
+                    width: 100%; 
+                    aspect-ratio: 1;
+                    order: 2;
+                    margin-top: 30px;
+                    img{
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        z-index: -1;
+                    }
+                    p{
+                        display: none;
+                    }
+                    h1{
+                        font-size: 1.2em;
+                        margin-left:0.8em;
+                        position: absolute;
+                        top:40%;
+
+                    }
+                    a{
+                        font-size:0.8em;
+                        margin-left:1em;
+                        color: rgb(216, 216, 216);
+                        position: absolute;
+                        top:55%;
+                    }             
+                }
+                #square-banner-sale+div{           
+                    width:100%;
+                    aspect-ratio: 4/3;
+                    order: 1;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-content:space-between;
+                    #smail-banner-sale1,
+                    #smail-banner-sale2,
+                    #smail-banner-sale3{
+                        position: relative;
+                    }
+                    img{
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        z-index: -1;
+                    }
+                    p{
+                       display: none;
+                    }
+                    h1{
+                        font-size: 1.2em;
+                        margin-left:0.8em;
+                        position: absolute;
+                        top:40%;
+                    }
+                    a{
+                        font-size:0.8em;
+                        margin-left:1em;
+                        color: rgb(216, 216, 216);
+                        position: absolute;
+                        top:55%;
+                    }
+                    #smail-banner-sale1{
+                        width: 100%;
+                        aspect-ratio: 1;                 
+                    }
+                    #smail-banner-sale2{
+                        width: 100%;
+                        aspect-ratio: 1;
+                        margin-top: 30px;
+                    }
+                    #smail-banner-sale3{
+                        width: 100%;
+                        aspect-ratio: 1;
+                        margin-top: 30px;
+                    }
+                }           
+            }
+    
+            #new-product{
+                margin-top: 60px;
+                #title-np{
+                    width: 100%;
+                    text-align: center;
+                    margin: 0;
+                }
+                #hr-style{
+                    width: 100%;  
+                    text-align: center;  
+                }
+                #mini-nav{      
+                    margin-top: 5px;  
+                    width: 100%;
+                    ul{
+                        display: flex;
+                        justify-content: center;
+                        width: 100%;
+                        padding: 0;
+                        li{
+                            margin-left: 1em;
+                        } 
+                    } 
+                }                      
+                #list-products{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    .div-lp{
+                        width: 48%;
+                        aspect-ratio: 0.5;                    
+                    }
+                }          
+                #deals{
+                    width: 100%;
+                    aspect-ratio: 1;
+                    margin-top: 60px;
+                    background-color: #dcdde2;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-content: space-evenly;
+
+                    #deals-img{
+                        display: none;
+                    }
+                    #p1{
+                        width: 100%;
+                        text-align: center;
+                        color: $colorgram;
+                     }
+                    h1{
+                        width: 100%;
+                        text-align: center;
+                        color: rgb(0, 0, 0);
+                    } 
+                    #p2{                       
+                        display: none;
+                        width: 80%;
+                    }                
+                    #clock{
+                        display: flex;
+                        width: 80%;
+                        top:140px;  
+                        color: white;  
+                        margin-right: 8px;
+                        display: flex;
+                        justify-content: center;
+                        .clock{
+                            width: 60px;
+                            height: 60px;
+                            background-color: white;
+                            color: black;
+                            margin-left: 8px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-wrap: wrap;
+                            font-size: 1.4em;
+                            border-radius: 10px;
+                            span{
+                                width: 100%;
+                                color:gray;
+                                text-align: center;
+                                font-size: 1em;
+                            }
+                        }  
+                        .space{
+                            display: none;
+                        }               
+                    }    
+                    button{
+                        bottom: 90px;
+                        
+                        background-color: $colorgram;
+                        height: 40px;
+                        width: 230px;
+                        aspect-ratio: 8/2;
+                        color: #ffffff;
+                    }
+                    button:hover{
+                        background-color: $hover-colorgram;
+                        height: 40px;
+                        aspect-ratio: 8/2;
+                        transition: all 0.3s linear;
+                    }   
+                    #container-play{
+                        width: 100%;
+                        height: 70px;
+                        position: relative;
+                        display: flex;
+                        justify-content: center;
+                        #play{
+                              height: 100%;
+                              aspect-ratio: 1;    
+                    }  }                                         
+                } 
+            }
+            #out-best-seller{
+                width: 100%;
+                margin-top: 80px;
+                #obs-title{
+                    text-align: center;
+                }
+                #obs-hr{
+                    text-align: center;
+                }
+                #obs-top-sale{
+                    margin-top: 40px;
+                    width: 100%;
+                    aspect-ratio: 1;
+                    display: flex;
+                    justify-content: space-between;
+                    overflow-x: scroll;
+                    &::-webkit-scrollbar{
+                        display: none;
+                    }
+                    .div-ts{
+                        width: 50%;
+                        aspect-ratio: 0.6;
+                        margin-left: 2%;
+                    }
+                }
+                                       
+                #obs-pr-sale{
+                    margin-top: 28px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    div{
+                        width: 100%;
+                        aspect-ratio: 3/2;
+                        position: relative;
+                        margin-top: 10px;
+                        img{                           
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                        }
+                        p{                           
+                             display: none;            
+                        }
+                        h1{
+                            position: absolute;
+                             z-index: 1;  
+                             top:38%;
+                             left:25px;  
+                             font-size: 1.1em;   
+                             color:white;            
+                        }
+                        a{
+                            position: absolute;
+                             z-index: 1;  
+                             top:50%;
+                             left:25px;    
+                             color: white;              
+                        }
+                    }
+                }
+            }
+    
+            #out-clients-say{
+                width: 100%;
+                margin-top: 80px;
+                #ocs-title{
+                    text-align: center;
+                }
+                #ocs-hr{
+                    text-align: center;
+                }
+                #ocs-mini-cv {
+                    margin-top: 40px;
+                    width: 100%;
+                    aspect-ratio: 1;
+                    display: flex;
+                    overflow-x: scroll;
+                    &::-webkit-scrollbar {
+                      display: none;
+                    }
+                    .cv-item {
+                      flex: 0 0 100%; 
+                      margin-right: 2%;
+                      aspect-ratio: 1;
+                      border-radius: 5px;
+                      box-shadow: 0 0 2px rgb(165, 165, 165);
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                    }
+                  }    
+                #pagination{
+                    width: 100%;
+                    height: 80px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0;
+                    padding: 0;
+                    li{
+                        background-color: #ee2761;
+                        border-radius: 50%;
+                        margin-left: 8px;
+                        color:$colorgram;
+                        height: 10px;
+                        width: 10px;
+                        margin-top: -10px;   
+                    }
+                }      
+                #ocs-pr{
+                    width: 100%;
+                    aspect-ratio: 1;
+                    position: relative;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        position: absolute;
+                        z-index: -1;
+                    }
+                    h1{
+                       width: 100%;
+                       text-align: center;
+                        font-size: 1.5em;
+                        margin-top: 60px;
+                    }
+                    p{
+                        width: 80%;
+                        font-size: 0.9em;
+                        text-align: center;
+                    }
+                    #ocs-button{
+                        
+                        width: 150px;
+                        height: 40px;
+                        background-color: #ee2761;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;   
+                        margin-bottom: 60px;
+                        color: white;
+                    }
+                    #ocs-button:hover{
+                        background-color: $hover-colorgram;
+                        transition: all .3s linear;
+                    }
+                }
+            }
+            #from-the-blog{
+                width: 100%;
+                
+                margin-top: 80px;
+                #ftb-title{
+                    text-align: center;                        
+                }
+                #ftb-hr{
+                    text-align: center;                                                                          
+                }
+                
+                #ftb-pr{
+                    margin-top: 40px;
+                    width: 100%;
+                    aspect-ratio: 2/3.2;
+                    overflow-x: scroll;
+                    &::-webkit-scrollbar{
+                        display: none;
+                    }
+                    #ftbscroll{
+                        display: flex;
+                        justify-content: space-between;
+                        width: 400vw;
+                        #ftb-pr-item{
+                          width: 100vw;          
+                        }
+                    }
+                   
+                }
+            }              
+        }}
+    }
+}

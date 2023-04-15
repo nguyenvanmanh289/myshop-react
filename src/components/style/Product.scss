@@ -1,0 +1,144 @@
+@media screen and (min-width:765px) {
+#main-product{
+    height: 100%;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+        img{
+            width: 100%;
+            aspect-ratio: 1;
+            &:hover{
+                transform: scale(1.06);
+                transition: all 0.3s linear;
+            }
+        }
+        #info{
+            height: 40%;
+            #name{
+                color: black;
+                font-size: 1em;
+                height:20%;    
+                width: auto;       
+                margin: 0;
+            }
+            p{
+                color:gray;
+                margin: 0;
+                font-size: 0.8em;
+            }
+            ul{
+                width: 100px;
+                height: 20px;
+                display: flex;
+                padding:0;
+                margin-bottom:10px;
+                color: rgb(212, 212, 0);
+                li{
+                        margin-left: 3px;
+                }
+            }
+            #product-service{
+                display: flex;
+                #add-to-car{
+                    border: 1px solid gray;
+                    border-radius: 5px;
+                    height: 40px;
+                    width: 150px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    &:hover{
+                        box-shadow: inset 2px 2px 5px rgb(167, 167, 167);
+                        border-width: 0px;
+                        transition: all .2s linear;
+                    }
+                }
+                #like,
+                #hide{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 40px;
+                    width: 40px;
+                    border: 1px solid gray;
+                    border-radius: 5px;
+                    margin-left: 10px;
+                }
+            }
+        }
+
+}}
+
+@media screen and (max-width:765px) {
+    #main-product{
+        height: 100%;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+            img{
+                width: 100%;
+                aspect-ratio: 1;
+                &:hover{
+                    transform: scale(1.06);
+                    transition: all 0.3s linear;
+                }
+            }
+            #info{
+                height: 40%;
+                #name{
+                    color: black;
+                    font-size: 1em;
+                    height:20%;    
+                    width: auto;       
+                    margin: 0;
+                }
+                p{
+                    color:gray;
+                    margin: 0;
+                    font-size: 0.8em;
+                }
+                ul{
+                    width: 100px;
+                    height: 20px;
+                    display: flex;
+                    padding:0;
+                    margin-bottom:10px;
+                    color: rgb(212, 212, 0);
+                    li{
+                            margin-left: 3px;
+                    }
+                }
+                #product-service{
+                    display: flex;
+                    #add-to-car{
+                        border: 1px solid gray;
+                        border-radius: 5px;
+                        height: 40px;
+                        aspect-ratio: 1;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        #text{
+                            display: none;
+                        }
+                        &:hover{
+                            box-shadow: inset 2px 2px 5px rgb(167, 167, 167);
+                            border-width: 0px;
+                            transition: all .2s linear;
+                        }
+                    }
+                    #like,
+                    #hide{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 40px;
+                        width: 40px;
+                        border: 1px solid gray;
+                        border-radius: 5px;
+                        margin-left: 10px;
+                    }
+                }
+            }
+    
+    }}

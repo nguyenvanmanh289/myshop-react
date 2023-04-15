@@ -1,0 +1,597 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300&family=Inter:wght@300&display=swap');
+$navfont : 'Anuphan', sans-serif;
+$colorgram : rgb(255, 64, 64);
+$menuColor: white;
+$text-hover-color:rgb(78,78,78);
+
+@media screen and (min-width:1024px) {
+.menuBar{display: none;}
+#menu-button{display: none;}
+
+.header{  
+    
+.navbar-top{
+    height: 60px;
+    background-color: rgb(255, 57, 57);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    margin:0;
+
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        li{
+            padding: 7px 7px; 
+            color: rgb(255, 255, 255);
+            img{
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+
+}
+.navbar-mid{
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    margin:0;
+    ul{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        color: red;
+        justify-content: space-around;
+        align-items: center;
+        #logo{
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            #inputData{
+                margin-left: 10px;
+            }
+            #logoBanner{
+                font-size: 3em;
+                height: 100%;
+                display: flex;
+                align-items: center;
+            }
+            li{
+                margin-left: 7px;
+            } 
+            li:hover{
+            cursor: pointer;
+        }
+        }
+       
+        li{
+
+            input{
+                 width: 300px; 
+                 padding: 7px;
+                 border: 1px solid rgb(199, 199, 199);
+                 background-color: transparent;
+            }
+            input:focus {
+                border: 2px solid #ff4d4d;
+            }
+            
+           
+            select{
+                width: 150px;
+                margin-right: 1px;
+                border: 1px solid rgb(199, 199, 199);
+                background-color: transparent;
+            }
+            select:focus{
+                border: 2px solid red;
+                border-radius: 5px;
+            }
+            button{
+                height: 40px;
+                aspect-ratio: 1;
+                background-color: rgb(255, 72, 72);
+            }
+            button:focus{
+                background-color: #df0000;
+                border-radius: 5px;
+                
+            }
+        }
+        
+        .service{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            div{
+                height: 100%;
+                text-align: center;
+                p{                   
+                    font-size: 10px;
+                    width: 100%;
+                    margin: 0;                   
+                }
+            }
+            div:hover{
+                cursor: pointer;
+            }
+        }
+
+    }
+}
+
+.navbar-bot{
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    color: aliceblue;   
+    margin:0;
+    ul{
+        color: gray;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        li{
+            margin-left: 2em;
+            font-family: $navfont;
+            font-size: 0.8em;
+        }
+    }
+    
+}
+}}
+
+@media screen and (min-width:765px) and (max-width:1024px) {
+    
+
+    .header{  
+        position: relative;
+        .menuBar{
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+            z-index: 2;
+            background-color: $menuColor;     
+              #close-menu{
+                width: 50px;
+                height: 50px;
+                top:20px;
+                left: 20px;
+                padding: 10px;
+              }
+        }
+        .navbar-top{
+            height: 60px;
+            background-color: rgb(255, 57, 57);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: aliceblue;
+            margin:0;
+        
+        
+            ul{
+                width: 100%;
+                list-style-type: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0;
+                margin: 0;
+                li{margin-left: 10px;}
+                
+            }
+            .country{
+                position: absolute;
+                    display: flex;
+                    left:30%;
+                    top :20px;                    
+                    padding: 7px 7px; 
+                    color: black;
+                    z-index: 2;
+                    li{
+                        margin-left: 20px;
+                        img{
+                        width: 25px;
+                        height: 25px;
+                        }
+                    }
+            }
+        }
+            
+
+        .navbar-mid{
+            height: 60px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: aliceblue;
+            margin:0;
+            ul{
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                color: red;
+                justify-content: space-around;
+                align-items: center;
+                #logo{
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                          
+                    }
+                    #logoBanner{
+                        font-size: 3em;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                    }
+                    li{
+                        margin-left: 7px;
+                    } 
+                }              
+                        
+                #inputData{
+                    position: absolute;
+                    top: 100px;
+                    justify-content: center;
+                    z-index: 2;
+                    input{
+                         width: 300px; 
+                         padding: 7px;
+                         border: 1px solid rgb(199, 199, 199);
+                         background-color: transparent;
+                    }
+                    input:focus {
+                        border: 2px solid #ff4d4d;
+                    }
+                    
+                 
+                    select{
+                        width: 150px;
+                        margin-right: 1px;
+                        border: 1px solid rgb(199, 199, 199);
+                        background-color: transparent;
+                    }
+                    select:focus{
+                        border: 2px solid red;
+                        border-radius: 5px;
+                    }
+                    button{
+                        height: 40px;
+                        aspect-ratio: 1;
+                        background-color: rgb(255, 72, 72);
+                    }
+                    button:focus{
+                        background-color: #df0000;
+                        border-radius: 5px;
+                        
+                    }
+                }
+                
+                .service{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    div{
+                        height: 100%;
+                        text-align: center;
+                        margin-left: 17px;
+                        p{                   
+                            font-size: 8px;
+                            width: 100%;
+                            margin: 0;                   
+                        }
+                    }
+                    #mycart{
+                        position: absolute;
+                        top:10px;
+                        right:47%;
+                        width: 50px;
+                        height: 50px;
+                        font-size: 2em;
+                        z-index: 2;
+                    }
+                    div:hover{
+                        cursor: pointer;
+                    }
+                }
+        
+            }
+        }
+        
+        .navbar-bot{
+            position: absolute;
+            top:180px;
+            height: 60px;                           
+            z-index: 2;
+            color: aliceblue;   
+            margin:0;
+            ul{
+                color: gray;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+
+                
+                .dropStyle{ 
+                    #dropdown-basic{
+                        font-family: $navfont;
+                        font-size: 1em;
+                        color: gray;
+                    }
+                }
+                
+                li{
+                    width: 100%;
+                    font-family: $navfont;
+                    font-size: 1.8em;
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                }
+            }
+            ul:last-child{
+                margin-top: 30px;
+            }
+            
+        }
+    }
+
+@media screen and (max-width:765px) {
+    .header{  
+        position: relative;
+        .menuBar{
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+            z-index: 2;
+            background-color: $menuColor;     
+              #close-menu{
+                width: 50px;
+                height: 50px;
+                top:20px;
+                left: 20px;
+                padding: 10px;
+                z-index: 2;
+              }
+        }
+        .navbar-top{
+            height: 60px;
+            background-color: rgb(255, 57, 57);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: aliceblue;
+            margin:0;
+        
+        
+            ul{
+                width: 100%;
+                list-style-type: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0;
+                margin: 0;
+                li{margin-right: 10px;}
+                #only-top+li{display: none;}
+                #in-menu-bottom1{
+                    position: absolute;
+                    z-index: 2;
+                    color:black;
+                    top:600px;
+                }
+                #in-menu-bottom2{
+                    position: absolute;
+                    color:black;
+                    top:620px;   
+                    z-index: 2;                               
+                } #in-menu-bottom2 + li{display: none;}
+                #in-menu-bottom3{
+                    position: absolute;
+                    color:black;
+                    top:700px;
+                    z-index: 2;
+                }
+                #in-menu-bottom4{
+                    position: absolute;
+                    color:black;
+                    top:720px;
+                    z-index: 2;
+                }
+                
+            }
+            
+            .country{
+                position: absolute;
+                    display: flex;
+                    width: 60%;
+                    justify-content: center;
+                    top :20px;                    
+                    padding: 7px 7px; 
+                    color: rgb(0, 0, 0);
+                    z-index: 2;
+                    li{
+
+                        img{
+                        width: 20px;
+                        height: 20px;
+                        }
+                    }
+            }
+        }
+            
+
+        .navbar-mid{
+            height: 60px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: aliceblue;
+            margin:0;
+            ul{
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                color: red;
+                justify-content: space-around;
+                align-items: center;
+                #logo{
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+        
+                    
+                    }
+                    #logoBanner{
+                        font-size: 3em;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                    }
+                    li{
+                        margin-left: 7px;
+                    } 
+                    li:hover{
+                    cursor: pointer;
+                }
+            
+               
+                        
+                #inputData{
+                    position: absolute;
+                    top: 70px;
+                    width: 80%;
+                    justify-content: center;
+                    z-index: 2;  
+                    input{
+                         width: 300px; 
+                         padding: 7px;
+                         border: 1px solid rgb(199, 199, 199);
+                         background-color: transparent;
+                    }
+                    input:focus {
+                        border: 2px solid #ff4d4d;
+                    }  
+                    select{
+                        width: 150px;
+                        margin-right: 1px;
+                        border: 1px solid rgb(199, 199, 199);
+                        background-color: transparent;
+                    }
+                    select:focus{
+                        border: 2px solid red;
+                        border-radius: 5px;
+                    }
+                    button{
+                        height: 40px;
+                        aspect-ratio: 1;
+                        background-color: rgb(255, 72, 72);
+                    }
+                    button:focus{
+                        background-color: #df0000;
+                        border-radius: 5px;
+                        
+                    }
+                }
+                
+                .service{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    div{
+                        height: 100%;
+                        text-align: center;
+                        margin-left: 17px;
+                        p{     
+                            display:none;              
+                            font-size: 8px;
+                            width: 100%;
+                            margin: 0;  
+
+                        }
+                        
+                    }
+                    #mycart{
+                        position: absolute;
+                        top:7px;
+                        right:20px;
+                        width: 50px;
+                        height: 50px;
+                        font-size: 2em;
+                        z-index: 2;
+                    }
+                    div:hover{
+                        cursor: pointer;
+                    }
+                }
+        
+            }
+        }
+        
+        .navbar-bot{
+            position: absolute;
+            top:130px;
+            height: 60px;                           
+            z-index: 2;
+            color: aliceblue;   
+            margin:0;
+            ul{
+                color: gray;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                
+                .dropStyle{ 
+                    #dropdown-basic{
+                        font-family: $navfont;
+                        font-size: 1em;
+                        color: gray;
+                    }
+                }
+                
+                li{
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    font-family: $navfont;
+                    font-size: 1.2em;
+                }
+                
+                
+            }
+            ul:last-child{
+                    margin-top: 20px;
+                }
+            
+        }
+    }
+}
