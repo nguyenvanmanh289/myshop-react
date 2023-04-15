@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/nguyenvanmanh289/myshop-react/static/css/main.2f975d36.css",
+    "main.js": "/nguyenvanmanh289/myshop-react/static/js/main.8cdce501.js",
+    "static/media/deals.jpg": "/nguyenvanmanh289/myshop-react/static/media/deals.1e3beb38df04aa268320.jpg",
+    "static/media/ins6.jpg": "/nguyenvanmanh289/myshop-react/static/media/ins6.170bd263f58bf7e29f17.jpg",
+    "static/media/ins5.jpg": "/nguyenvanmanh289/myshop-react/static/media/ins5.ae4aab091432f1005eb8.jpg",
+    "static/media/play.png": "/nguyenvanmanh289/myshop-react/static/media/play.5d528d5d3e5ad5fa27e0.png",
+    "static/media/ins3.jpg": "/nguyenvanmanh289/myshop-react/static/media/ins3.27f5966d534d4747a7cd.jpg",
+    "static/media/smail-banner1.jpg": "/nguyenvanmanh289/myshop-react/static/media/smail-banner1.93548e11f0d7e9582005.jpg",
+    "static/media/ins1.jpg": "/nguyenvanmanh289/myshop-react/static/media/ins1.4b5c13607e77d0ad1295.jpg",
+    "static/media/smail-banner2.jpg": "/nguyenvanmanh289/myshop-react/static/media/smail-banner2.41e24d8ccb44ba1ebd29.jpg",
+    "static/media/pay4.png": "/nguyenvanmanh289/myshop-react/static/media/pay4.54a3b25225bf6938cfd2.png",
+    "static/media/user.jpg": "/nguyenvanmanh289/myshop-react/static/media/user.0c0ec1f92fb6d30ffb50.jpg",
+    "static/media/ins2.jpg": "/nguyenvanmanh289/myshop-react/static/media/ins2.8c8a54c01d0da3d5c936.jpg",
+    "static/media/smail-banner0.jpg": "/nguyenvanmanh289/myshop-react/static/media/smail-banner0.f516e2b0e76ce409dd2a.jpg",
+    "static/media/obs-pr2.jpg": "/nguyenvanmanh289/myshop-react/static/media/obs-pr2.76eaee3c74a5e7ac8f1c.jpg",
+    "static/media/ins4.jpg": "/nguyenvanmanh289/myshop-react/static/media/ins4.9271adcfe96688264b95.jpg",
+    "static/media/big-banner.jpg": "/nguyenvanmanh289/myshop-react/static/media/big-banner.ceecdcac0917ff61a552.jpg",
+    "static/media/pay2.jpg": "/nguyenvanmanh289/myshop-react/static/media/pay2.9c1fd4431b50ebf32cda.jpg",
+    "static/media/pay1.jpg": "/nguyenvanmanh289/myshop-react/static/media/pay1.d062bf0ae254f85c510b.jpg",
+    "static/media/pay6.png": "/nguyenvanmanh289/myshop-react/static/media/pay6.062868625adb3d024538.png",
+    "static/media/image1.webp": "/nguyenvanmanh289/myshop-react/static/media/image1.1f437cec25edb31dcdf6.webp",
+    "static/media/obs-pr1.jpg": "/nguyenvanmanh289/myshop-react/static/media/obs-pr1.24e098b27580885ba7e2.jpg",
+    "static/media/united-kingdom.png": "/nguyenvanmanh289/myshop-react/static/media/united-kingdom.c14d3d192e28b2ada8af.png",
+    "static/media/united-states.png": "/nguyenvanmanh289/myshop-react/static/media/united-states.5112067d14cfc159ed64.png",
+    "static/media/pay3.webp": "/nguyenvanmanh289/myshop-react/static/media/pay3.da3dafbe2e82366a8ee1.webp",
+    "index.html": "/nguyenvanmanh289/myshop-react/index.html",
+    "main.2f975d36.css.map": "/nguyenvanmanh289/myshop-react/static/css/main.2f975d36.css.map",
+    "main.8cdce501.js.map": "/nguyenvanmanh289/myshop-react/static/js/main.8cdce501.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f975d36.css",
+    "static/js/main.8cdce501.js"
+  ]
+}
